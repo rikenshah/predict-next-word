@@ -18,6 +18,7 @@ This is a N-gram language model that predicts the next word based on a precalcul
 
 5. Run `python getTopBigrams.py` and enjoy :p.
 
-### Screenshots of Output
+### Screenshot of Output
 
+![output](https://raw.githubusercontent.com/rikenshah/predict-next-word/master/outputScreenshot/output.png)
 
