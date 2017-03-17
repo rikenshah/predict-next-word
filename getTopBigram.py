@@ -3,8 +3,8 @@ from collections import OrderedDict
 import heapq # for getting top 5
 
 pickleDumps = "pickleDumps/"
-conditionalProbabilityFile = pickleDumps+"conditionalProbabilityDict.txt"
-bigramsListPath = pickleDumps + "bigramsList.txt"
+conditionalProbabilityFile = pickleDumps+"conditionalProbabilityDict.p"
+bigramsListPath = pickleDumps + "bigramsList.p"
 
 file = open(conditionalProbabilityFile,"rb")
 conditionalProbabilityDict = pickle.load(file)
